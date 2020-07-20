@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Impresión desde php</title>
+        <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <style>
+        #title{ color:#9E824A; }
+        #title1{ color: #1A7825 ;}
+    </style>
+</head>
+<body>
+    <center><h1 id="title" style="font-family: 'Piedra', cursive;" >Programas en PHP</h1></center>
+    <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+    <section style="background-color: lightblue;">
+        <form method="get" action="ex1.php">
+        <h2 style="font-family: 'Chelsea Market', cursive";>Números</h2><br>
+        <label>Calcula numeros pares del 1-100</label><br><br>
+        <input type="submit" style="padding: .5rem; border:0; background:#2D9675 ;" value="Calcular"/>
+        </form>
+    </section>
+    </div>
+    
+     <div class="card" style="width: 26rem; margin-top: 1.5rem;margin-left:28rem;" align="center">
+    <section style="background-color: lightcoral;">
+     <form method="post" action="ex2.php">
+        <h2 style="font-family: 'Chelsea Market', cursive"><b>Categoría y sueldo</b></h2>
+        <label>¿Cuál es tu sueldo?</label><br>
+         <input type="text" name="sueldo"/><br>
+         <label>¿Cuál es tu categoría?</label><br>
+         <select name="tipo" class="form-control">
+			<option value="a">Categoría 1</option>
+			<option value="b">Categoría 2</option>
+			<option value="c">Categoría 3</option>
+			<option value="d">Categoría 4</option>
+		</select><br><br>
+        <input type="submit" style="padding: .5rem; border:0; background:#D0475C ;" value="calcular"/>
+        </form>
+    </section>
+    </div>
+    
+     <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+     <section style="background-color: lightgreen;">
+     <form method="get" action="ex3.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Area de una figura</b></h2><br>
+        <label>Ingresa el diametro: </label><br>
+         <input type="text" name="diametro"/><br>
+         <label>Ingresa una altura: </label><br>
+         <input type="text" name="altura"/><br><br>
+        <input type="submit" style="padding: .5rem; border:0; background:#6FB963 ;" value="calcular"/>
+        </form>
+    </section>
+    </div>
+    
+     <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+     <section style="background-color: lightgoldenrodyellow;">
+     <form method="post" action="ex4.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Admisión universidad</b></h2><br>
+        <label>Ingresa tu matrícula: </label><br>
+         <input type="text" name="matricula"/><br>
+         <label>Ingresa tu semestre: </label><br>
+         <input type="text" name="semestre"/><br>
+         <label>Ingresa tu promedio: </label><br>
+         <input type="text" name="promedio"/><br><br>
+        <input type="submit" style="padding: .5rem; border:0; background:#B9B963 ;" value="Imprimir"/>
+        </form>
+    </section>
+    </div>
+    
+     <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+    <section style="background-color: lightcyan;">
+     <form method="get" action="ex5.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Área de un terreno</b></h2><br>
+        <label>Ingrese largo del terreno: </label><br>
+         <input type="text" name="largo"/><br>
+         <label>Ingrese ancho del terreno: </label><br>
+         <input type="text" name="ancho"/><br><br>
+        <input type="submit" style="padding: .5rem; border:0; background:#91D6CF ;" value="Calcular area"/>
+        </form>
+    </section>
+    </div>
+    <!-- Ejercicios php POO parcial 3-->
+    <h1 id="title1" style="font-family: 'Piedra', cursive;" ><center>Programas PHP POO</center></h1>
+    
+    <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+    <section style="background-color: #ECC1FE;">
+     <form method="post" action="formularioVista.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Ejercicio 1</b></h2><br>
+         <p>Desarrolle un programa en el que capture e imprima el nickname, correo y contraseña de una persona.	Este programa debe ayudar con la experiencia del usuario, ya que, si elige la opción de imprimir antes de capturar, debe enviar un mensaje de que es necesario primero capturar. </p>
+        <input type="submit" style="padding: .5rem; border:0; background:#D7AAEA ;" value="Ir al ejercicio"/>
+        </form>
+    </section>
+    </div>
+    
+    <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+    <section style="background-color: #FCBB81 ;">
+     <form method="post" action="gradosVista.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Ejercicio 2</b></h2><br>
+         <p>Escriba un programa que pida una temperatura en grados centígrados o Fahrenheit y los convierta en Fahrenheit o centígrados de acuerdo con lo que el usuario elija.  </p>
+        <input type="submit" style="padding: .5rem; border:0; background:#FBAD68;" value="Ir al ejercicio"/>
+        </form>
+    </section>
+    </div>
+    
+    <div class="card" style="width: 26rem; margin-top: 1.5rem; margin-left:28rem;" align="center">
+    <section style="background-color:#FEB1D5;">
+     <form method="post" action="cantidadesVista.php">
+         <h2 style="font-family: 'Chelsea Market', cursive"><b>Ejercicio 3</b></h2><br>
+         <p>Hacer un programa que permita la captura de 3 cantidades por conceptos de alimentación, transporte y colegiaturas y obtenga un total de gastos.  Si la colegiatura es mayor a 5000 entonces hace un descuento en el total de gastos de 15%; por el contrario, si la alimentación es mayor a 3000 hacemos un incremento al total 25%. Entregar un total final incluyendo todas las situaciones. </p>
+        <input type="submit" style="padding: .5rem; border:0; background:#FC88BE;" value="Ir al ejercicio"/>
+        </form>
+    </section>
+    </div>
+    
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>By: Eva Montserrat Villalobos Pérez</small><br>
+        <small>EVND305</small>
+    </div>
+  </footer>
+</body>
+</html>
